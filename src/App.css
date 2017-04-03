@@ -22,3 +22,56 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.Title {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size:70px;
+  margin-top: 3%;
+  padding: 5%;
+}
+.Items {
+  font-family: 'Raleway', sans-serif;
+}
+ {
+  background: none;
+  box-shadow:none;
+  border-color:white;
+  color: white;
+  margin: 5%;
+  font-family:'Raleway', sans-serif;
+}
+.inputbox{
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right:none;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  color: white;
+  outline-width: 0;
+  font-size: 20px;
+}
+.checkbox-default{
+  margin: 0 auto;
+  width: 30%;
+  text-align: left
+}
+.thing {
+  margin-left: 8%;
+  margin-right: 5%;
+  font-size: 20px;
+  color: white;
+}
+.checklist {
+  margin-left: 0px;
+}
+.close {
+  background: transparent;
+
+}
+.name-info {
+  margin-top: 30%;
+  color: white;
+}
