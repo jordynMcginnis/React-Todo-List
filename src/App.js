@@ -54,7 +54,7 @@ var ListContainer = React.createClass({
             return (
               <div className = 'checkbox-default'>
                 <input className ='checklist' type = 'checkbox' name = 'checkbox' id = 'checkbox1' />
-                <label htmlFor ='checkbox1'> {thing} </label>
+                <label htmlFor ='checkbox1' className = 'thing'> {thing} </label>
                 <button onClick = {this.removeItem.bind(this, index)} type="button" className="close" >
                   <span >&times;</span>
                 </button>

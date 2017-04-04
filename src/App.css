@@ -33,15 +33,11 @@
 }
 .Items {
   font-family: 'Raleway', sans-serif;
-}
- {
-  background: none;
-  box-shadow:none;
-  border-color:white;
   color: white;
-  margin: 5%;
-  font-family:'Raleway', sans-serif;
+  font-size: 30px;
+
 }
+
 .inputbox{
   background: none;
   border-top: none;
@@ -59,9 +55,9 @@
   text-align: left
 }
 .thing {
-  margin-left: 8%;
+  margin-left: 10%;
   margin-right: 5%;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 }
 .checklist {
