@@ -7,12 +7,7 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+
 
 .App-intro {
   font-size: large;
@@ -23,19 +18,17 @@
   to { transform: rotate(360deg); }
 }
 
-
 .Title {
-  color: white;
-  font-family: 'Oswald', sans-serif;
-  font-size:70px;
+  color: black;
+  font-family: 'Cabin Sketch', cursive;
+  font-size:200%;
   margin-top: 3%;
   padding: 5%;
 }
-.Items {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 30px;
-
+.items {
+  color: black;
+  font-size: 100%;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .inputbox{
@@ -45,9 +38,10 @@
   border-right:none;
   margin-right: 5%;
   margin-bottom: 3%;
-  color: white;
+  color: black;
   outline-width: 0;
-  font-size: 20px;
+  font-size: 100%;
+  font-family: 'Cabin Sketch', cursive;
 }
 .checkbox-default{
   margin: 0 auto;
@@ -57,17 +51,19 @@
 .thing {
   margin-left: 10%;
   margin-right: 5%;
-  font-size: 30px;
-  color: white;
-}
-.checklist {
-  margin-left: 0px;
-}
-.close {
-  background: transparent;
 
 }
-.name-info {
-  margin-top: 30%;
-  color: white;
+.checklist {
+  margin-left: 0%;
+}
+.close {
+  background: black;
+  margin-right: 0%;
+}
+
+.addButton {
+  border-color: #eeeeee;
+  background-color: transparent;
+  color: black;
+  border-style: solid;
 }
